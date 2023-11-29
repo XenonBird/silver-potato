@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '~@flaticon/flaticon-uicons/css/all/all';
+
+.bg-gradient-primary {
+  background-image: linear-gradient(to top right, #5a3dff 30%, #8e7afc);
+  color: white;
+}
+
+.bg-gradient-secondary {
+  background-image: linear-gradient(to top right, #2ac790 30%, #5ef3bf);
+  color: black;
+}
 /*
 :root {
   --foreground-rgb: 0, 0, 0;
