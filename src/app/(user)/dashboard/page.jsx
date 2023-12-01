@@ -28,8 +28,8 @@ const Dashboard = () => {
 
 const TestDataItem = () => {
   return (
-    <section className="flex flex-col w-full rounded-xl p-4 border">
-      <div className="flex justify-between items-center">
+    <section className="flex flex-col w-full rounded-xl border shadow-md overflow-hidden">
+      <div className="flex justify-between items-center p-4 bg-accent">
         <div>
           <p className="font-semibold text-lg">Child psychology set-57</p>
           <p>
@@ -45,11 +45,11 @@ const TestDataItem = () => {
           </div>
         </div>
       </div>
-      <div className="my-3 w-full border-b"></div>
+      <div className="w-full border-b"></div>
 
       {/* <p className="text-green-500 font-semibold">Pending...</p> */}
 
-      <div className="flex justify-around items-center gap-4">
+      <div className="flex justify-around items-center gap-4 p-4">
         <div className="grid grid-cols-2 gap-4 text-center">
           <div className="py-2">
             <p className="font-semibold">200</p>
@@ -63,12 +63,10 @@ const TestDataItem = () => {
             <p className="font-semibold">160</p>
             <p>Corrects</p>
           </div>
-
           <div className="py-2">
             <p className="font-semibold">70</p>
             <p>Marks</p>
           </div>
-
           {/* 
           <div className="col-span-2 collapse collapse-arrow bg-base-200">
             <input type="radio" name="my-accordion-2" checked="checked" />
@@ -80,7 +78,7 @@ const TestDataItem = () => {
            */}
         </div>
         <div
-          className="radial-progress"
+          className="radial-progress text-primary font-semibold"
           style={{ '--value': 75 }}
           role="progressbar"
         >
