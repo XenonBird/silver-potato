@@ -34,6 +34,7 @@ const RegisterPage = () => {
       if (response.status === 201) {
         toast.success('Registered successfully', { id: tid });
         router.push('/');
+        router.refresh();
       } else {
         toast.error(body.message, { id: tid });
       }

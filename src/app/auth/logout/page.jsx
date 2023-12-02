@@ -22,6 +22,7 @@ const LogoutPage = () => {
       if (response.status === 200) {
         toast.success('Logged out successfully', { id: tid });
         router.push('/profile');
+        router.refresh();
       } else {
         toast.error(body.message, { id: tid });
       }

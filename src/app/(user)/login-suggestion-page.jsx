@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
-// ProfileEmpty component
-const ProfileEmpty = () => {
+const LoginSuggestionPage = () => {
   return (
     <main className="grow overflow-y-scroll">
       <div className="mx-auto max-w-md flex flex-col gap-4 p-4">
@@ -44,4 +43,4 @@ const ProfileEmpty = () => {
   );
 };
 
-export default ProfileEmpty;
+export default LoginSuggestionPage;
