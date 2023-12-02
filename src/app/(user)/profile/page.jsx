@@ -16,7 +16,7 @@ const ProfileData = () => {
   return (
     <main className="grow overflow-y-scroll">
       <div className="mx-auto max-w-md flex flex-col gap-4 p-4">
-        // <pre>{JSON.stringify(decodedData.data, null, 2)}</pre>
+        {/* <pre>{JSON.stringify(decodedData.data, null, 2)}</pre> */}
         {/* User Profile */}
         <section className="flex flex-col gap-4 w-full border rounded-xl p-4">
           <h2 className="font-semibold text-xl text-center">

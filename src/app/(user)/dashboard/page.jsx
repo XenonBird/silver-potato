@@ -10,7 +10,7 @@ const Dashboard = () => {
   return (
     <main className="grow overflow-y-scroll">
       <div className="mx-auto max-w-md flex flex-col gap-4 p-4">
-        // <pre>{JSON.stringify(decodedData.data, null, 2)}</pre>
+        {/* <pre>{JSON.stringify(decodedData.data, null, 2)}</pre> */}
         {/* Attends | Conducts */}
         <section className="flex justify-around items-center w-full rounded-xl p-4 py-0 gap-4">
           <button className="w-full p-2 text-center font-semibold text-lg rounded-md bg-gradient-primary">
